@@ -1,0 +1,246 @@
+.course
+{
+    width: 200px;
+    height: 50px;
+    margin:auto;
+}
+
+#coursename
+{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    position: absolute;
+    color: black;
+    font-size: large;
+    font-family:'Franklin Gothic Medium';
+    font-weight: bold;
+}
+
+.game {
+    width: 600px;
+    height: 200px;
+    background-color: khaki;
+    border: 1px solid brown;
+    margin: auto;
+}
+
+.score{
+    width: 200px;
+    height: 50px;
+    top: 270px;
+    left: 580px;
+    position: absolute;
+    color: blue;
+    font-size: large;
+    font-family: 'Lucida Sans';
+    font-weight: bold;
+}
+#pressU {
+    width: 200px;
+    height: 50px;
+    top: 300px;
+    left: 560px;
+    position: absolute;
+    color: black;
+    font-size: medium;
+    font-family: 'Lucida Sans';
+    font-weight: bold;
+}
+
+#mug {
+    width: 50px;
+    height: 50px;
+    background-image: url(img/mug.png);
+    background-size: 50px 50px;
+    position: relative;
+    top: 150px;
+}
+
+.jump
+{
+    animation: jump 0.3s linear;
+}
+
+@keyframes jump {
+    0% {
+        top: 150px;
+    }
+
+    30%
+    {
+        top: 130px;
+    }
+
+    50%
+    {
+        top: 80px;
+    }
+
+    80%
+    {
+        top: 130px;
+    }
+
+    100%
+    {
+        top: 150px
+    }
+}
+
+#machine {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 500px;
+    bottom: 50px;
+    background-image: url(img/machine.png);
+    background-size: 100px 100px;
+
+    animation: pour 2s infinite linear;
+}
+
+@keyframes pour{
+    0% {
+        left: 500px;
+    }
+
+
+    100%
+    {
+        left: -20px
+    }
+
+}
+
+.coffeeplaces{
+    width: 600px;
+    height: 200px;
+    margin: auto;
+}
+
+#tim{
+    background-size: 100px 90px;
+    font-size: large;
+    font-family: cursive;
+    color: black;
+    width: 100px;
+    height: 90px;
+    position: relative;
+    top: 150px;
+
+}
+
+#time {
+    background-size: 100px 90px;
+    font-size: large;
+    font-family: fantasy;
+    width: 100px;
+    height: 90px;
+    position: relative;
+    top: 110px;
+}
+
+#blenz{
+    background-size: 100px 90px;
+    font-size: large;
+    font-family: cursive;
+    color: black;
+    width: 100px;
+    height: 90px;
+    position: relative;
+    bottom: 20px;
+    left: 100px;
+
+}
+
+#blends {
+    background-size: 100px 90px;
+    font-size: large;
+    font-family: fantasy;
+    width: 100px;
+    height: 90px;
+    position: relative;
+    bottom: 35px;
+    left: 100px;
+}
+
+#star{
+    background-size: 100px 90px;
+    font-size: large;
+    font-family: cursive;
+    color: black;
+    width: 100px;
+    height: 90px;
+    position: relative;
+    bottom: 180px;
+    left: 220px;
+
+}
+
+#bucks {
+    background-size: 100px 90px;
+    font-size: large;
+    font-family: fantasy;
+    width: 100px;
+    height: 90px;
+    position: relative;
+    bottom: 245px;
+    left: 220px;
+}
+
+#rn {
+    background-size: 100px 90px;
+    font-size: large;
+    font-family: cursive;
+    width: 100px;
+    height: 90px;
+    position: relative;
+    bottom: 315px;
+    left: 220px;
+    color: black;
+}
+
+#back {
+    background-size: 100px 90px;
+    font-size: large;
+    font-family: cursive;
+    width: 100px;
+    height: 90px;
+    position: relative;
+    bottom: 410px;
+    left: 320px;
+}
+
+#ren {
+    background-size: 100px 90px;
+    font-size: large;
+    font-family: fantasy;
+    width: 100px;
+    height: 90px;
+    position: relative;
+    bottom: 475px;
+    left: 320px;
+}
+
+#it {
+    background-size: 100px 90px;
+    font-size: large;
+    font-family: cursive;
+    width: 100px;
+    height: 90px;
+    position: relative;
+    bottom: 540px;
+    left: 320px;
+    color: black;
+}
+
+#java {
+    background-size: 150px 140px;
+    width: 150px;
+    height: 140px;
+    position: relative;
+    bottom: 750px;
+    left: 440px;
+}
+
